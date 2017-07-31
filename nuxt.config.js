@@ -22,6 +22,7 @@ module.exports = {
     '@nuxtjs/axios',
     { src: '@nuxtjs/blog', options: {
       static: true,
+      base: 'http://aby.ninja',
       markdown: {
         plugins: [require('markdown-it-katex')]
       }
