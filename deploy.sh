@@ -15,6 +15,7 @@ git clone --depth 1 --branch master ${REPO} ${TEMP_DIR};
 rm -rf ${TEMP_DIR}/*;
 cp -r dist/* ${TEMP_DIR};
 cp README.md ${TEMP_DIR};
+[ ! -f "${TEMP_DIR}/.nojekyll" ] && touch "${TEMP_DIR}/.nojekyll";
 
 # Commit and push.
 cd ${TEMP_DIR};
