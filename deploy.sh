@@ -18,7 +18,7 @@ cp -r dist/* ${TEMP_DIR};
 # Commit and push.
 cd ${TEMP_DIR};
 git add -A;
-git commit -m "Deployed at ${RELEASE}" --;
+git commit -m "Deployed at ${RELEASE}" --author "Somya Anand <somyaanand214@gmail.com>";
 git push origin master;
 
 cd ..
