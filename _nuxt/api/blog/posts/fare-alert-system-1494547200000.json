@@ -1,0 +1,49 @@
+{
+  "id": "fare-alert-system-1494547200000",
+  "slug": "fare-alert-system",
+  "highlightedLanguages": [],
+  "source": "---\ndate: 2017-05-12\ntags:\n    - project\n---\n# Fare alert system\n\nPurchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.\n\n## Fare volatility\n\nAirlines start actively increasing fares in the last 2 weeks, often doubling them 24hrs prior to departure time. Under competitive pressure from other airlines, they also announce flash sales with significantly reduced fares sometimes by even 50%. The catch however is, limited seat availability at such discounted fares. This dynamism in fares fluctuating up and down often during the same day, is bound to drive travellers anxious about fares.\n\n## Fare alert functionality\n\nCustomers typically search anxiously 15-30 times before making a successful booking.\n\n## Architecture (using pubsub and redis for entire structure)\n\n### About message streaming\n\ncassandra(fault tolerant, scalable, since we can not lose data for airfare), kafka (pub-sub service), mongodb (persistent database), redis(mem cache), elastic search(fast retrieval) and their particular use cases\n\n<!--Write about curator and multiple engagement through fare alerts  -->\n\n## Further possibilities\n\n<!--Write about personalizing fare alerts for more customized experience  -->\n",
+  "rendered": "<h1>Fare alert system</h1>\n<p>Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.</p>\n<h2>Fare volatility</h2>\n<p>Airlines start actively increasing fares in the last 2 weeks, often doubling them 24hrs prior to departure time. Under competitive pressure from other airlines, they also announce flash sales with significantly reduced fares sometimes by even 50%. The catch however is, limited seat availability at such discounted fares. This dynamism in fares fluctuating up and down often during the same day, is bound to drive travellers anxious about fares.</p>\n<h2>Fare alert functionality</h2>\n<p>Customers typically search anxiously 15-30 times before making a successful booking.</p>\n<h2>Architecture (using pubsub and redis for entire structure)</h2>\n<h3>About message streaming</h3>\n<p>cassandra(fault tolerant, scalable, since we can not lose data for airfare), kafka (pub-sub service), mongodb (persistent database), redis(mem cache), elastic search(fast retrieval) and their particular use cases</p>\n<!--Write about curator and multiple engagement through fare alerts  -->\n<h2>Further possibilities</h2>\n<!--Write about personalizing fare alerts for more customized experience  -->\n",
+  "attributes": {
+    "date": "2017-05-12T00:00:00.000Z",
+    "tags": [
+      {
+        "id": "project",
+        "name": "project"
+      }
+    ],
+    "title": "Fare alert system",
+    "updated_at": "2017-07-31T14:40:25.000Z",
+    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+    "collection": {
+      "id": "airfare-insights",
+      "name": "Airfare Insights"
+    }
+  },
+  "title": "Fare alert system",
+  "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+  "keywords": [
+    "project"
+  ],
+  "published_at": "2017-05-12T00:00:00.000Z",
+  "updated_at": "2017-07-31T14:40:25.000Z",
+  "year": 2017,
+  "month": 5,
+  "day": 13,
+  "next": {
+    "id": "fare-calendar-system-1501515844000",
+    "slug": "fare-calendar-system",
+    "collection": "airfare-insights",
+    "title": "Smart Fare calendar system",
+    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "published_at": "2017-07-31T15:44:04.000Z"
+  },
+  "prev": {
+    "id": "coccinelle-usages-1501512123000",
+    "slug": "coccinelle-usages",
+    "collection": null,
+    "title": "Coccinelle",
+    "description": "Using coccinelle",
+    "published_at": "2017-07-31T14:42:03.000Z"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "coccinelle-usages-1501512123000",
+  "slug": "coccinelle-usages",
+  "highlightedLanguages": [],
+  "source": "---\n---\n# Coccinelle\n\nUsing coccinelle\n",
+  "rendered": "<h1>Coccinelle</h1>\n<p>Using coccinelle</p>\n",
+  "attributes": {
+    "title": "Coccinelle",
+    "date": "2017-07-31T14:42:03.000Z",
+    "updated_at": "2017-07-31T14:42:03.000Z",
+    "description": "Using coccinelle",
+    "tags": []
+  },
+  "title": "Coccinelle",
+  "description": "Using coccinelle",
+  "keywords": [],
+  "published_at": "2017-07-31T14:42:03.000Z",
+  "updated_at": "2017-07-31T14:42:03.000Z",
+  "year": 2017,
+  "month": 7,
+  "day": 32,
+  "next": {
+    "id": "fare-alert-system-1494547200000",
+    "slug": "fare-alert-system",
+    "collection": "airfare-insights",
+    "title": "Fare alert system",
+    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+    "published_at": "2017-05-12T00:00:00.000Z"
+  },
+  "prev": {
+    "id": "building-datastore-hive-1501512115000",
+    "slug": "building-datastore-hive",
+    "collection": null,
+    "title": "Datastore",
+    "description": "About hive and all. will have to study about it.",
+    "published_at": "2017-07-31T14:41:55.000Z"
+  }
+}

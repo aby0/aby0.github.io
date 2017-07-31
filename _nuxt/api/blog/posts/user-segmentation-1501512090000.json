@@ -1,0 +1,49 @@
+{
+  "id": "user-segmentation-1501512090000",
+  "slug": "user-segmentation",
+  "highlightedLanguages": [],
+  "source": "---\ntags:\n  - project\n---\n# User Segmentation\n\nAbout user segmentation.",
+  "rendered": "<h1>User Segmentation</h1>\n<p>About user segmentation.</p>\n",
+  "attributes": {
+    "tags": [
+      {
+        "id": "project",
+        "name": "project"
+      }
+    ],
+    "title": "User Segmentation",
+    "date": "2017-07-31T14:41:30.000Z",
+    "updated_at": "2017-07-31T14:41:30.000Z",
+    "description": "About user segmentation.",
+    "collection": {
+      "id": "machine-learning",
+      "name": "Machine Learning"
+    }
+  },
+  "title": "User Segmentation",
+  "description": "About user segmentation.",
+  "keywords": [
+    "project"
+  ],
+  "published_at": "2017-07-31T14:41:30.000Z",
+  "updated_at": "2017-07-31T14:41:30.000Z",
+  "year": 2017,
+  "month": 7,
+  "day": 32,
+  "next": {
+    "id": "y2038-problem-1501512139000",
+    "slug": "y2038-problem",
+    "collection": null,
+    "title": "y2038 issue in linux kernel",
+    "description": "Handling y2038 issue gracefully.",
+    "published_at": "2017-07-31T14:42:19.000Z"
+  },
+  "prev": {
+    "id": "supervised-nuclei-segmentation-1501512190000",
+    "slug": "supervised-nuclei-segmentation",
+    "collection": "machine-learning",
+    "title": "Supervised approach for nuclei segmentation",
+    "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
+    "published_at": "2017-07-31T14:43:10.000Z"
+  }
+}

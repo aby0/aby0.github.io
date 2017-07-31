@@ -1,5 +1,0 @@
----
----
-# Coccinelle
-
-Using coccinelle

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "airfare-insights",
+    "name": "Airfare Insights"
+  },
+  {
+    "id": "agent-based-modelling",
+    "name": "Agent Based Modelling"
+  }
+]

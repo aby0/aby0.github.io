@@ -1,0 +1,82 @@
+[
+  {
+    "id": "y2038-problem-1501512139000",
+    "slug": "y2038-problem",
+    "collection": null,
+    "title": "y2038 issue in linux kernel",
+    "description": "Handling y2038 issue gracefully.",
+    "published_at": "2017-07-31T14:42:19.000Z"
+  },
+  {
+    "id": "user-segmentation-1501512090000",
+    "slug": "user-segmentation",
+    "collection": "machine-learning",
+    "title": "User Segmentation",
+    "description": "About user segmentation.",
+    "published_at": "2017-07-31T14:41:30.000Z"
+  },
+  {
+    "id": "supervised-nuclei-segmentation-1501512190000",
+    "slug": "supervised-nuclei-segmentation",
+    "collection": "machine-learning",
+    "title": "Supervised approach for nuclei segmentation",
+    "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
+    "published_at": "2017-07-31T14:43:10.000Z"
+  },
+  {
+    "id": "indigo-api-integration-1501512130000",
+    "slug": "indigo-api-integration",
+    "collection": null,
+    "title": "Multivendor airline API aggregator",
+    "description": "API aggregration.",
+    "published_at": "2017-07-31T14:42:10.000Z"
+  },
+  {
+    "id": "fare-trends-1501512750000",
+    "slug": "fare-trends",
+    "collection": "airfare-insights",
+    "title": "Fare Trends",
+    "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
+    "published_at": "2017-07-31T14:52:30.000Z"
+  },
+  {
+    "id": "fare-calendar-system-1501515844000",
+    "slug": "fare-calendar-system",
+    "collection": "airfare-insights",
+    "title": "Smart Fare calendar system",
+    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "published_at": "2017-07-31T15:44:04.000Z"
+  },
+  {
+    "id": "fare-alert-system-1494547200000",
+    "slug": "fare-alert-system",
+    "collection": "airfare-insights",
+    "title": "Fare alert system",
+    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+    "published_at": "2017-05-12T00:00:00.000Z"
+  },
+  {
+    "id": "coccinelle-usages-1501512123000",
+    "slug": "coccinelle-usages",
+    "collection": null,
+    "title": "Coccinelle",
+    "description": "Using coccinelle",
+    "published_at": "2017-07-31T14:42:03.000Z"
+  },
+  {
+    "id": "building-datastore-hive-1501512115000",
+    "slug": "building-datastore-hive",
+    "collection": null,
+    "title": "Datastore",
+    "description": "About hive and all. will have to study about it.",
+    "published_at": "2017-07-31T14:41:55.000Z"
+  },
+  {
+    "id": "agent-based-modelling-1501513291000",
+    "slug": "agent-based-modelling",
+    "collection": "agent-based-modelling",
+    "title": "Role of emotions in online communities: An agent based approach",
+    "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
+    "published_at": "2017-07-31T15:01:31.000Z"
+  }
+]
