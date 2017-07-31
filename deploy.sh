@@ -14,6 +14,7 @@ git clone --depth 1 --branch master ${REPO} ${TEMP_DIR};
 # Update all files.
 rm -rf ${TEMP_DIR}/*;
 cp -r dist/* ${TEMP_DIR};
+cp README.md ${TEMP_DIR};
 
 # Commit and push.
 cd ${TEMP_DIR};

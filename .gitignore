@@ -1,5 +1,6 @@
 # Nuxt
-.nuxt
+/.nuxt
+/dist
 
 # Logs
 logs
