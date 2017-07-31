@@ -1,3 +1,7 @@
+---
+tags:
+  - project
+---
 # Role of emotions in online communities: An agent based approach
 
 We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.

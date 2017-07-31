@@ -1,3 +1,7 @@
+---
+tags:
+  - project
+---
 # Smart Fare calendar system
 
 Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,

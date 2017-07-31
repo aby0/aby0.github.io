@@ -1,8 +1,13 @@
+---
+description: 
+tags:
+  - project
+---
 # Supervised approach for nuclei segmentation
 
 Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.
-Automated image analysis of cells and tissues has been an active research field in medical informatics for decades but has recently attracted increased attention due to developments in computer and microscopy hardware and the awareness that scientific and diagnostic pathology require novel approaches to perform objective quantitative analyses of cellular and tissue specimens. Since it is not always possible to generate the segmentation process manually, systems developed to automatically segment images are usually restricted to specific domains. Even for a particular application purpose, formal specification of the parameters of a segmentation algorithm can be very
-difficult. Moreover, the concept of a good partition may depend on the purpose of its use and may be highly subjective. Interactive segmentation systems are appropriate to deal with several of these issues. The user can manage the segmentation process, having full control over the level of detail
+
+Automated image analysis of cells and tissues has been an active research field in medical informatics for decades but has recently attracted increased attention due to developments in computer and microscopy hardware and the awareness that scientific and diagnostic pathology require novel approaches to perform objective quantitative analyses of cellular and tissue specimens. Since it is not always possible to generate the segmentation process manually, systems developed to automatically segment images are usually restricted to specific domains. Even for a particular application purpose, formal specification of the parameters of a segmentation algorithm can be very difficult. Moreover, the concept of a good partition may depend on the purpose of its use and may be highly subjective. Interactive segmentation systems are appropriate to deal with several of these issues. The user can manage the segmentation process, having full control over the level of detail
 1of the desired partition.
 
 We have devised a supervised approach for nuclei detection which takes an user input in order to know the desired partition for the image, then using this prior, overall segmentation will take place. We have taken both pixel-wise and patch-wise information into account for segmentation of nuclei.Further we have worked with ternary classification of images into nucleus, non nucleus and boundary region as well. We have experimented with both normal nuclei( Non cancerous) and complex nuclei (cancerous).
