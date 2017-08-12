@@ -17,8 +17,6 @@ We can devise fare calendar system as a clustering problem in which fares can be
 
 ### K-means for clustering
 
----
-
 [k-means](https://www.wikiwand.com/en/K-means_clustering) clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster. Mathematically:
 
 Given a set of observations ($x_1$, $x_2$, …, $x_n$), where each observation is a d-dimensional real vector, k-means clustering aims to partition the n observations into $k$ ($\leq n$) sets $S$ = {$S_1$, $S_2$, …, $S_k$} so as to minimize the within-cluster sum of squares (WCSS) (i.e. variance). Formally, the objective is to find:
@@ -30,7 +28,7 @@ Given a set of observations ($x_1$, $x_2$, …, $x_n$), where each observation i
 <!--Write about k-means-->
 
 <!--Determing k automatically-->
-In Kmeans "k" or the number of clusters can be taken as a hyperparameter. In order to determine "k" automatically, either we can perform cross-validation or we can use other algorithms like silhouette analysis. Silhouette refers to a method of interpretation and validation of consistency within clusters of data.
+In Kmeans $k$ or the number of clusters can be taken as a hyperparameter. In order to determine $k$ automatically, either we can perform cross-validation or we can use other algorithms like silhouette analysis. Silhouette refers to a method of interpretation and validation of consistency within clusters of data.
 
 The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from -1 to 1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters. If most objects have a high value, then the clustering configuration is appropriate. If many points have a low or negative value, then the clustering configuration may have too many or too few clusters.
 

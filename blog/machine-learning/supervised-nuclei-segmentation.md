@@ -137,4 +137,3 @@ We have achieved a supervised approach for image segmentation using random fores
 * Since we have used patch-wise image segmentation, the features under consideration are high in number. This leads our algorithm to take more time than expected. So we can use various techniques to reduce features of concern like stain separation.
 
 * We can expand this tool further for hyper-spectral images.
-
