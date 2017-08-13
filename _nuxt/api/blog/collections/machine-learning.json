@@ -3,20 +3,20 @@
   "name": "Machine Learning",
   "articles": [
     {
-      "id": "user-segmentation-1501512090000",
-      "slug": "user-segmentation",
+      "id": "user-classification-1489190400000",
+      "slug": "user-classification",
       "collection": "machine-learning",
-      "title": "User Segmentation",
-      "description": "About user segmentation.",
-      "published_at": "2017-07-31T14:41:30.000Z"
+      "title": "User classification",
+      "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
+      "published_at": "2017-03-11T00:00:00.000Z"
     },
     {
-      "id": "supervised-nuclei-segmentation-1501512190000",
+      "id": "supervised-nuclei-segmentation-1502625983000",
       "slug": "supervised-nuclei-segmentation",
       "collection": "machine-learning",
       "title": "Supervised approach for nuclei segmentation",
       "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
-      "published_at": "2017-07-31T14:43:10.000Z"
+      "published_at": "2017-08-13T12:06:23.000Z"
     }
   ]
 }

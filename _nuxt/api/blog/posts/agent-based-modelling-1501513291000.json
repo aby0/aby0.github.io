@@ -31,11 +31,11 @@
   "month": 7,
   "day": 32,
   "next": {
-    "id": "building-datastore-hive-1501512115000",
+    "id": "building-datastore-hive-1502625983000",
     "slug": "building-datastore-hive",
     "collection": null,
     "title": "Datastore",
-    "description": "About hive and all. will have to study about it.",
-    "published_at": "2017-07-31T14:41:55.000Z"
+    "description": "Efficient way to construct hive datastore.",
+    "published_at": "2017-08-13T12:06:23.000Z"
   }
 }

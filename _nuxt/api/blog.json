@@ -1,27 +1,27 @@
 [
   {
-    "id": "y2038-problem-1501512139000",
+    "id": "y2038-problem-1502625983000",
     "slug": "y2038-problem",
     "collection": null,
     "title": "y2038 issue in linux kernel",
-    "description": "Handling y2038 issue gracefully.",
-    "published_at": "2017-07-31T14:42:19.000Z"
+    "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
+    "published_at": "2017-08-13T12:06:23.000Z"
   },
   {
-    "id": "user-segmentation-1501512090000",
-    "slug": "user-segmentation",
+    "id": "user-classification-1489190400000",
+    "slug": "user-classification",
     "collection": "machine-learning",
-    "title": "User Segmentation",
-    "description": "About user segmentation.",
-    "published_at": "2017-07-31T14:41:30.000Z"
+    "title": "User classification",
+    "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
+    "published_at": "2017-03-11T00:00:00.000Z"
   },
   {
-    "id": "supervised-nuclei-segmentation-1501512190000",
+    "id": "supervised-nuclei-segmentation-1502625983000",
     "slug": "supervised-nuclei-segmentation",
     "collection": "machine-learning",
     "title": "Supervised approach for nuclei segmentation",
     "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
-    "published_at": "2017-07-31T14:43:10.000Z"
+    "published_at": "2017-08-13T12:06:23.000Z"
   },
   {
     "id": "indigo-api-integration-1501512130000",
@@ -40,12 +40,12 @@
     "published_at": "2017-07-31T14:52:30.000Z"
   },
   {
-    "id": "fare-calendar-system-1501515844000",
+    "id": "fare-calendar-system-1502625983000",
     "slug": "fare-calendar-system",
     "collection": "airfare-insights",
     "title": "Smart Fare calendar system",
     "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
-    "published_at": "2017-07-31T15:44:04.000Z"
+    "published_at": "2017-08-13T12:06:23.000Z"
   },
   {
     "id": "fare-alert-system-1494547200000",
@@ -56,20 +56,20 @@
     "published_at": "2017-05-12T00:00:00.000Z"
   },
   {
-    "id": "coccinelle-usages-1501512123000",
+    "id": "coccinelle-usages-1470873600000",
     "slug": "coccinelle-usages",
     "collection": null,
     "title": "Coccinelle",
-    "description": "Using coccinelle",
-    "published_at": "2017-07-31T14:42:03.000Z"
+    "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
+    "published_at": "2016-08-11T00:00:00.000Z"
   },
   {
-    "id": "building-datastore-hive-1501512115000",
+    "id": "building-datastore-hive-1502625983000",
     "slug": "building-datastore-hive",
     "collection": null,
     "title": "Datastore",
-    "description": "About hive and all. will have to study about it.",
-    "published_at": "2017-07-31T14:41:55.000Z"
+    "description": "Efficient way to construct hive datastore.",
+    "published_at": "2017-08-13T12:06:23.000Z"
   },
   {
     "id": "agent-based-modelling-1501513291000",

@@ -1,33 +1,33 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "api/blog/posts/y2038-problem-1501512139000.json",
-    "0.nuxt.bundle.2ff65ac6bbf37cb1ba19.js",
-    "2.nuxt.bundle.911ae1a3586a9980a3d4.js",
-    "3.nuxt.bundle.8181d938678c7ceeacf0.js",
-    "4.nuxt.bundle.1af3c76603a7b9587f40.js",
-    "5.nuxt.bundle.d67369a8a723ce0e4fc6.js",
-    "vendor.bundle.1621d9eb6e7abb24d45a.js",
-    "nuxt.bundle.d6acf5804f757823db04.js",
-    "manifest.0201a6279c3a701f0dea.js",
-    "0.nuxt.bundle.2ff65ac6bbf37cb1ba19.js.map",
-    "1.nuxt.bundle.d11b316cd1a56036e49f.js.map",
-    "2.nuxt.bundle.911ae1a3586a9980a3d4.js.map",
-    "3.nuxt.bundle.8181d938678c7ceeacf0.js.map",
-    "4.nuxt.bundle.1af3c76603a7b9587f40.js.map",
-    "5.nuxt.bundle.d67369a8a723ce0e4fc6.js.map",
-    "vendor.bundle.1621d9eb6e7abb24d45a.js.map",
-    "nuxt.bundle.d6acf5804f757823db04.js.map",
-    "manifest.0201a6279c3a701f0dea.js.map",
-    "1.nuxt.bundle.d11b316cd1a56036e49f.js",
-    "api/blog/posts/user-segmentation-1501512090000.json",
-    "api/blog/posts/supervised-nuclei-segmentation-1501512190000.json",
+    "api/blog/posts/y2038-problem-1502625983000.json",
+    "0.nuxt.bundle.a6b6621cf581fd5f84dc.js",
+    "2.nuxt.bundle.84dba606ebdffa6de06e.js",
+    "3.nuxt.bundle.85dd2663ece90aca081b.js",
+    "4.nuxt.bundle.ccd2b1ebd1fd2b8649f3.js",
+    "5.nuxt.bundle.76f2c3f3b55d477d861e.js",
+    "vendor.bundle.44f610c52e9189087219.js",
+    "nuxt.bundle.b995d41fc8988bb40c19.js",
+    "manifest.17f5b2446aa491ff5bb3.js",
+    "0.nuxt.bundle.a6b6621cf581fd5f84dc.js.map",
+    "1.nuxt.bundle.b12868ec86561f7e5dbe.js.map",
+    "2.nuxt.bundle.84dba606ebdffa6de06e.js.map",
+    "3.nuxt.bundle.85dd2663ece90aca081b.js.map",
+    "4.nuxt.bundle.ccd2b1ebd1fd2b8649f3.js.map",
+    "5.nuxt.bundle.76f2c3f3b55d477d861e.js.map",
+    "vendor.bundle.44f610c52e9189087219.js.map",
+    "nuxt.bundle.b995d41fc8988bb40c19.js.map",
+    "manifest.17f5b2446aa491ff5bb3.js.map",
+    "1.nuxt.bundle.b12868ec86561f7e5dbe.js",
+    "api/blog/posts/user-classification-1489190400000.json",
+    "api/blog/posts/supervised-nuclei-segmentation-1502625983000.json",
     "api/blog/posts/indigo-api-integration-1501512130000.json",
     "api/blog/posts/fare-trends-1501512750000.json",
-    "api/blog/posts/fare-calendar-system-1501515844000.json",
+    "api/blog/posts/fare-calendar-system-1502625983000.json",
     "api/blog/posts/fare-alert-system-1494547200000.json",
-    "api/blog/posts/coccinelle-usages-1501512123000.json",
-    "api/blog/posts/building-datastore-hive-1501512115000.json",
+    "api/blog/posts/coccinelle-usages-1470873600000.json",
+    "api/blog/posts/building-datastore-hive-1502625983000.json",
     "api/blog/posts/agent-based-modelling-1501513291000.json",
     "api/blog/tags/project.json",
     "api/blog/collections/machine-learning.json",
@@ -40,17 +40,17 @@
     "index.spa.html"
   ],
   "initial": [
-    "manifest.0201a6279c3a701f0dea.js",
-    "vendor.bundle.1621d9eb6e7abb24d45a.js",
-    "nuxt.bundle.d6acf5804f757823db04.js"
+    "manifest.17f5b2446aa491ff5bb3.js",
+    "vendor.bundle.44f610c52e9189087219.js",
+    "nuxt.bundle.b995d41fc8988bb40c19.js"
   ],
   "async": [
-    "0.nuxt.bundle.2ff65ac6bbf37cb1ba19.js",
-    "2.nuxt.bundle.911ae1a3586a9980a3d4.js",
-    "3.nuxt.bundle.8181d938678c7ceeacf0.js",
-    "4.nuxt.bundle.1af3c76603a7b9587f40.js",
-    "5.nuxt.bundle.d67369a8a723ce0e4fc6.js",
-    "1.nuxt.bundle.d11b316cd1a56036e49f.js"
+    "0.nuxt.bundle.a6b6621cf581fd5f84dc.js",
+    "2.nuxt.bundle.84dba606ebdffa6de06e.js",
+    "3.nuxt.bundle.85dd2663ece90aca081b.js",
+    "4.nuxt.bundle.ccd2b1ebd1fd2b8649f3.js",
+    "5.nuxt.bundle.76f2c3f3b55d477d861e.js",
+    "1.nuxt.bundle.b12868ec86561f7e5dbe.js"
   ],
   "modules": {
     "15028944": [
@@ -373,7 +373,11 @@
       6,
       15
     ],
-    "2ea586e5": [
+    "07552185": [
+      6,
+      15
+    ],
+    "047c4984": [
       6,
       15
     ],
@@ -702,8 +706,8 @@
       15
     ],
     "dc316ff8": [
-      5,
-      14
+      4,
+      13
     ],
     "823912b0": [
       3,
@@ -722,16 +726,40 @@
       9
     ],
     "f6610510": [
-      4,
-      13
+      5,
+      14
     ],
     "acf0650e": [
       1,
       9
     ],
-    "2a716194": [
-      5,
-      14
+    "baf9e622": [
+      4,
+      13
+    ],
+    "67d9c385": [
+      4,
+      13
+    ],
+    "e703ee12": [
+      4,
+      13
+    ],
+    "325cc416": [
+      4,
+      13
+    ],
+    "5b10403f": [
+      4,
+      13
+    ],
+    "f09d492e": [
+      4,
+      13
+    ],
+    "1ad518a5": [
+      4,
+      13
     ],
     "55f0125b": [
       3,
@@ -849,21 +877,21 @@
       1,
       9
     ],
-    "09e2ce71": [
-      4,
-      13
+    "63440a7a": [
+      5,
+      14
     ],
-    "877674ca": [
-      4,
-      13
+    "05d56c90": [
+      5,
+      14
     ],
     "3932e62a": [
-      4,
-      13
+      5,
+      14
     ],
     "24b8d0c9": [
-      4,
-      13
+      5,
+      14
     ]
   }
 }
