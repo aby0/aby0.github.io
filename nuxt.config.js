@@ -34,15 +34,13 @@ module.exports = {
   ],
 
   build: {
-    vendor: ['particles.js'],
-    loaders: [
-      {
-        test: /\.(scss)$/,
-        loader: 'sass-resources-loader',
-        options: {
-          resources: resolve(__dirname, './styles/_variables.scss')
-        }
-      }
-    ]
+    extend (config) {
+      config.module.rules.push({
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: /@nuxtjs/,
+        query: { presets: ['vue-app'], babelrc: false }
+      })
+    }
   }
 }
