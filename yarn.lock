@@ -10,10 +10,11 @@
     chalk "^2.0.1"
     whatwg-url "^6.1.0"
 
-"@nuxtjs/blog@next":
-  version "0.0.1-2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/blog/-/blog-0.0.1-2.tgz#6024ad98d8f12aa7688b082dd8a664dffed28e0f"
+"@nuxtjs/blog@0.0.1-4":
+  version "0.0.1-4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/blog/-/blog-0.0.1-4.tgz#2ca9aed744d135220aa170a4a4c30add40b8393d"
   dependencies:
+    babel-plugin-transform-object-rest-spread "^6.23.0"
     babel-polyfill "^6.23.0"
     chalk "2.0.1"
     cheerio "^1.0.0-rc.1"

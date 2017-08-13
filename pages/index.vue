@@ -20,7 +20,7 @@
                 <h1 class="name">Somya Anand</h1>
                 <div class="title">Software Engineer | Data Scientist</div>
                 <div class="profile">
-                    <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
+                    <p>I am currently working at Paytm as a software engineer (most of the time acting as a data scientist, making sense out of data). I completed my bachelors in Mathematics and Computing from IIT Guwahati. I am also a machine learning enthusiast, ardent game of thrones fan, an amateur writer, travel freak, full time data scientist at heart and part time dreamer.</p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
@@ -57,7 +57,7 @@
             <div class="timeline">
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">PayTM</h3>
+                        <h3 class="place">Paytm</h3>
                         <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
                     </div>
                     <div class="job-meta">
@@ -65,11 +65,13 @@
                         <div class="time">July 2016 – Current</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>The role includes Working on horizontally scalable dis- tributed platform (Data Science Platform) in travel marketplace and responsible for providing better insights across all travel vertical. Major projects undertaken:</p> 
+                        <p>The role includes Working on horizontally scalable distributed platform (Data Science Platform) in travel marketplace and responsible for providing better insights across all travel vertical. Major projects undertaken:</p> 
                         <ul>
                             <li>Fare Alert System</li>
                             <li>Fare Calendar System</li>
                             <li>Fare Trends</li>
+                            <li>User Classification</li>
+
                         </ul>
                     </div><!--//job-desc-->
                 </div><!--//item-->
@@ -117,7 +119,6 @@
                         </div><!--//education-body-->
                         <div class="time">2012 - 2016</div>
                         <div class="desc">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
                         </div>
                     </div><!--//item-inner-->
                 </div><!--//item-->
@@ -140,7 +141,7 @@
                             <h4 class="skill-name">Python &amp; Scikit Learn</h4>
                             <div class="level">Expert, 3 years</div>
                             <div class="desc">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                                Prototyping ML and data analytics algorithms using scikit-learn, pandas and TensorFlow.
                             </div>
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -152,7 +153,7 @@
                             <h4 class="skill-name">Java</h4>
                             <div class="level">Advanced, 1 years</div>
                             <div class="desc">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                                Learnt and mastered at work.
                             </div>
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -164,7 +165,7 @@
                             <h4 class="skill-name">C/C++</h4>
                             <div class="level">Advanced, 4 years</div>
                             <div class="desc">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                                First language, saviour since 2011.
                             </div>
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -214,7 +215,12 @@
             <div class="intro">
                 <img class="profile-image" src="//github.com/aby0.png" alt="">
                 <div class="dialog">
-                    <p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                    <p>
+                      I'm currently looking for machine learning opportunities.
+                      <br>
+                      <br>
+                      <br>
+                    </p>
                 </div><!--//diaplog-->
             </div><!--//intro-->
 
