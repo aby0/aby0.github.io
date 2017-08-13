@@ -42,8 +42,7 @@
                         <li class=""><a class="scrollto" href="#experiences">Experiences</a></li>
                         <li><a class="scrollto" href="#education">Education</a></li>
                         <li><a class="scrollto" href="#skills">Skills</a></li>
-                        <li><a class="scrollto" href="#testimonials">Testimonials</a></li>
-                        <li><a class="scrollto" href="#portfolio">Portfolio</a></li>
+                        <!-- <li><a class="scrollto" href="#portfolio">Portfolio</a></li> -->
                         <li><a class="scrollto" href="#contact">Contact</a></li>
                     </ul><!--//page-nav-->
                 </div>
@@ -85,7 +84,7 @@
                         <div class="time">May 2015 – July 2015</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>Researched on role of emotions in online communities: An agent based approach.</p> 
+                        <p>Researched role of emotions in on-line communities using agent based approach.</p> 
                     </div><!--//job-desc-->
                 </div><!--//item-->
                 
@@ -99,7 +98,7 @@
                         <div class="time">May 2014 – July 2014</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
+                        <p>The role involved analysis of univariate & multivariate probability distributions and associated regressions.</p> 
                     </div><!--//job-desc-->
                 </div><!--//item-->
                 
@@ -199,62 +198,16 @@
             
         </section><!--//skills-section-->
         
-        <section id="testimonials" class="testimonials-section section">
-            <h2 class="section-title">Testimonials</h2>
-            
-            <div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <blockquote class="quote">      
-                            <i class="fa fa-quote-left"></i>                            
-                            <p>Somya is very hot.</p>
-                        </blockquote>    
-                        <div class="source">
-                            <div class="name">Rahul Kadyan</div>
-                            <div class="position">Software Engineer, Myntra</div>
-                        </div><!--//source-->   
-                                                       
-                    </div><!--//item-->
-                    <div class="item">
-                        <blockquote class="quote">
-                            <p><i class="fa fa-quote-left"></i>
-                            She runs a lot.</p>
-                            
-                        </blockquote>
-                        <div class="source">
-                            <div class="name">Dheeraj Khatri</div>
-                            <div class="position">Software Engineer, Flipkart</div>
-                        </div><!--//source-->   
-               
-                    </div><!--//item-->
-                    <div class="item">
-                        <blockquote class="quote">
-                            <p><i class="fa fa-quote-left"></i>
-                            I am alive because of her.</p>
-                        </blockquote>       
-                        <div class="source">
-                            <div class="name">Something Sai</div>
-                            <div class="position">Software Engineer, PayTM</div>
-                        </div><!--//source-->          
-                    </div><!--//item-->
-                    
-                </div><!--//carousel-inner-->
-            </div><!--//testimonials-carousel-->
-            
-        </section><!--//section-->
-        
-        
-        <section id="portfolio" class="portfolio-section section">
+        <!-- <section id="portfolio" class="portfolio-section section">
             <h2 class="section-title">Portfolio</h2>
             <ul id="filters" class="filters clearfix">
                 <li class="type">All</li>
                 <li class="type">Back-end</li>
                 <li class="type">Front-end</li>
-            </ul><!--//filters-->
-            <div class="items-wrapper row"></div><!--//item-wrapper-->
+            </ul>
+            <div class="items-wrapper row"></div>
             
-        </section><!--//section-->
+        </section> -->
         
         <section id="contact" class="contact-section section">
             <h2 class="section-title">Get in Touch</h2>
