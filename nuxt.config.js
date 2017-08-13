@@ -1,4 +1,4 @@
-const { join } = require('path')
+const { join, resolve } = require('path')
 const { description } = require('./package.json')
 
 module.exports = {
@@ -18,6 +18,10 @@ module.exports = {
     mode: 'history'
   },
 
+  loading: {
+    color: 'white'
+  },
+
   modules: [
     '@nuxtjs/axios',
     { src: '@nuxtjs/blog', options: {
@@ -27,5 +31,18 @@ module.exports = {
         plugins: [require('markdown-it-katex')]
       }
     } }
-  ]
+  ],
+
+  build: {
+    vendor: ['particles.js'],
+    loaders: [
+      {
+        test: /\.(scss)$/,
+        loader: 'sass-resources-loader',
+        options: {
+          resources: resolve(__dirname, './styles/_variables.scss')
+        }
+      }
+    ]
+  }
 }
