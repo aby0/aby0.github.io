@@ -9,7 +9,7 @@
   "attributes": {
     "date": "2016-08-11T00:00:00.000Z",
     "title": "Coccinelle",
-    "updated_at": "2017-08-13T12:11:35.000Z",
+    "updated_at": "2017-08-13T12:32:12.000Z",
     "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
     "tags": []
   },
@@ -17,7 +17,7 @@
   "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
   "keywords": [],
   "published_at": "2016-08-11T00:00:00.000Z",
-  "updated_at": "2017-08-13T12:11:35.000Z",
+  "updated_at": "2017-08-13T12:32:12.000Z",
   "year": 2016,
   "month": 8,
   "day": 12,
@@ -30,11 +30,11 @@
     "published_at": "2017-05-12T00:00:00.000Z"
   },
   "prev": {
-    "id": "building-datastore-hive-1502625983000",
+    "id": "building-datastore-hive-1502544694000",
     "slug": "building-datastore-hive",
     "collection": null,
     "title": "Datastore",
     "description": "Efficient way to construct hive datastore.",
-    "published_at": "2017-08-13T12:06:23.000Z"
+    "published_at": "2017-08-12T13:31:34.000Z"
   }
 }

@@ -11,28 +11,28 @@
       "published_at": "2017-03-11T00:00:00.000Z"
     },
     {
-      "id": "supervised-nuclei-segmentation-1502625983000",
+      "id": "supervised-nuclei-segmentation-1502544694000",
       "slug": "supervised-nuclei-segmentation",
       "collection": "machine-learning",
       "title": "Supervised approach for nuclei segmentation",
       "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
-      "published_at": "2017-08-13T12:06:23.000Z"
+      "published_at": "2017-08-12T13:31:34.000Z"
     },
     {
-      "id": "fare-trends-1501512750000",
+      "id": "fare-trends-1502544694000",
       "slug": "fare-trends",
       "collection": "airfare-insights",
       "title": "Fare Trends",
       "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
-      "published_at": "2017-07-31T14:52:30.000Z"
+      "published_at": "2017-08-12T13:31:34.000Z"
     },
     {
-      "id": "fare-calendar-system-1502625983000",
+      "id": "fare-calendar-system-1502544694000",
       "slug": "fare-calendar-system",
       "collection": "airfare-insights",
       "title": "Smart Fare calendar system",
       "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
-      "published_at": "2017-08-13T12:06:23.000Z"
+      "published_at": "2017-08-12T13:31:34.000Z"
     },
     {
       "id": "fare-alert-system-1494547200000",
@@ -43,12 +43,12 @@
       "published_at": "2017-05-12T00:00:00.000Z"
     },
     {
-      "id": "agent-based-modelling-1501513291000",
+      "id": "agent-based-modelling-1502544694000",
       "slug": "agent-based-modelling",
       "collection": "agent-based-modelling",
       "title": "Role of emotions in online communities: An agent based approach",
       "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
-      "published_at": "2017-07-31T15:01:31.000Z"
+      "published_at": "2017-08-12T13:31:34.000Z"
     }
   ]
 }

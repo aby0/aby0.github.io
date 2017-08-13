@@ -13,7 +13,7 @@
       }
     ],
     "title": "Fare alert system",
-    "updated_at": "2017-08-13T12:06:23.000Z",
+    "updated_at": "2017-08-12T13:31:34.000Z",
     "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
     "collection": {
       "id": "airfare-insights",
@@ -26,17 +26,17 @@
     "project"
   ],
   "published_at": "2017-05-12T00:00:00.000Z",
-  "updated_at": "2017-08-13T12:06:23.000Z",
+  "updated_at": "2017-08-12T13:31:34.000Z",
   "year": 2017,
   "month": 5,
   "day": 13,
   "next": {
-    "id": "fare-calendar-system-1502625983000",
+    "id": "fare-calendar-system-1502544694000",
     "slug": "fare-calendar-system",
     "collection": "airfare-insights",
     "title": "Smart Fare calendar system",
     "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
-    "published_at": "2017-08-13T12:06:23.000Z"
+    "published_at": "2017-08-12T13:31:34.000Z"
   },
   "prev": {
     "id": "coccinelle-usages-1470873600000",

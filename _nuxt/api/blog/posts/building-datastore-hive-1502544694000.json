@@ -1,0 +1,38 @@
+{
+  "id": "building-datastore-hive-1502544694000",
+  "slug": "building-datastore-hive",
+  "highlightedLanguages": [],
+  "source": "---\n---\n# Datastore\n\nEfficient way to construct hive datastore.\n",
+  "rendered": "<h1>Datastore</h1>\n<p>Efficient way to construct hive datastore.</p>\n",
+  "attributes": {
+    "title": "Datastore",
+    "date": "2017-08-12T13:31:34.000Z",
+    "updated_at": "2017-08-12T13:31:34.000Z",
+    "description": "Efficient way to construct hive datastore.",
+    "tags": []
+  },
+  "title": "Datastore",
+  "description": "Efficient way to construct hive datastore.",
+  "keywords": [],
+  "published_at": "2017-08-12T13:31:34.000Z",
+  "updated_at": "2017-08-12T13:31:34.000Z",
+  "year": 2017,
+  "month": 8,
+  "day": 13,
+  "next": {
+    "id": "coccinelle-usages-1470873600000",
+    "slug": "coccinelle-usages",
+    "collection": null,
+    "title": "Coccinelle",
+    "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
+    "published_at": "2016-08-11T00:00:00.000Z"
+  },
+  "prev": {
+    "id": "agent-based-modelling-1502544694000",
+    "slug": "agent-based-modelling",
+    "collection": "agent-based-modelling",
+    "title": "Role of emotions in online communities: An agent based approach",
+    "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
+    "published_at": "2017-08-12T13:31:34.000Z"
+  }
+}

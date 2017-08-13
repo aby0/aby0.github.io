@@ -13,7 +13,7 @@
       }
     ],
     "title": "User classification",
-    "updated_at": "2017-08-13T12:06:23.000Z",
+    "updated_at": "2017-08-12T13:30:44.000Z",
     "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
     "collection": {
       "id": "machine-learning",
@@ -26,24 +26,24 @@
     "project"
   ],
   "published_at": "2017-03-11T00:00:00.000Z",
-  "updated_at": "2017-08-13T12:06:23.000Z",
+  "updated_at": "2017-08-12T13:30:44.000Z",
   "year": 2017,
   "month": 3,
   "day": 12,
   "next": {
-    "id": "y2038-problem-1502625983000",
+    "id": "y2038-problem-1502544694000",
     "slug": "y2038-problem",
     "collection": null,
     "title": "y2038 issue in linux kernel",
     "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
-    "published_at": "2017-08-13T12:06:23.000Z"
+    "published_at": "2017-08-12T13:31:34.000Z"
   },
   "prev": {
-    "id": "supervised-nuclei-segmentation-1502625983000",
+    "id": "supervised-nuclei-segmentation-1502544694000",
     "slug": "supervised-nuclei-segmentation",
     "collection": "machine-learning",
     "title": "Supervised approach for nuclei segmentation",
     "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
-    "published_at": "2017-08-13T12:06:23.000Z"
+    "published_at": "2017-08-12T13:31:34.000Z"
   }
 }
