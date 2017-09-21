@@ -1,4 +1,5 @@
 ---
+date: 2017-08-11
 tags:
   - project
 ---
@@ -7,8 +8,6 @@ tags:
 We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.
 
 ## Agent based modeling
-
-<!--// Write the concept of agent based modelling in brief here.-->
 
 An agent-based model (ABM) is one of a class of computational models for simulating the actions and interactions of autonomous agents (both individual or collective entities such as organizations or groups) with a view to assessing their effects on the system as a whole. It combines elements of game theory, complex systems, emergence, computational sociology, multi-agent systems, and evolutionary programming. Monte Carlo methods are used to introduce randomness. Agents have behaviours,
 often described by simple rules, and interactions with other agents, which in turn influence their behaviours. By modelling agents individually, the full effects of the diversity that exists among agents in their attributes and behaviours can be observed as it gives rise to the behaviour of the system as a whole.
@@ -28,26 +27,24 @@ For our experiments we have used a general framework of agent based modeling for
 
 * Agents will be brownian in nature. To get an understanding of the idea, we can say ’astonished’ is the emotional state due to positive valence and positive arousal.
 
-* We have defined the social activity as ’S’ i.e whenever an agent creates a new post the variable will obtains the value in following way:
-  * Si = -1 if Vi is less than Vmax
+* We have defined the social activity as $S$ i.e whenever an agent creates a new post the variable will obtains the value in following way:
+  * $S_i = -1$ if $V_i$ is less than $V_{max}$
 
-  * Si = 1 if Vi is more than Vmin
+  * $S_i = 1$ if $V_i$ is more than $V_{min}$
 
-  * Si = 0 , otherwise
+  * $S_i = 0$ , otherwise
 
-Where Vi is individual’s valence and Vmax and Vmin are the respective maximum and minimum threshold value of every individual. From the experimental observation and after my own calculation we have found that the valence of basic individual varies from -0.5 to 0.5 following a bell curve, and since we have taken valence to be of gaussian distribution (0,1), so for the threshold value we have taken from triangular distribution(-1,-0.5) for minimum and (0.5,1) maximum.
+Where $V_i$ is individual’s valence and $V_max$ and $V_min$ are the respective maximum and minimum threshold value of every individual. From the experimental observation and after my own calculation we have found that the valence of basic individual varies from -0.5 to 0.5 following a bell curve, and since we have taken valence to be of gaussian distribution (0,1), so for the threshold value we have taken from triangular distribution(-1,-0.5) for minimum and (0.5,1) maximum.
 
 (As 1 will be the point of inflection for valence according to the empirical results).
 
-* The time dynamics of valence is also followed via the equation: vi = viγi +b ∗ (h+ −h−) ∗ vi +Av ∗ Ei (1.1) hi denotes emotionality of a field due to the result of communicating emotions. Av ∗ Ei denotes the stochastic factor in the dynamics of valence.
+* The time dynamics of valence is also followed via the equation: $$v_i = v_i γ_i + b ∗ (h_+ − h_−) ∗ v_i + A_v ∗ E_i$$ (1.1) $h_i$ denotes emotionality of a field due to the result of communicating emotions. $A_v ∗ E_i$ denotes the stochastic factor in the dynamics of valence.
 
-* Further we have also discretized the value of emotions according to the states they are lying that is Emotion E = {-1,0,1}. It was needed when we are modeling the environment to study the impact of emotion in community integration and disitntegration.
+* Further we have also discretized the value of emotions according to the states they are lying that is Emotion $E = {-1,0,1}$. It was needed when we are modeling the environment to study the impact of emotion in community integration and disitntegration.
 
-<!--Insert model and image-->
+![Model for emotion quantification](/images/agent-based-modeling/main-model.png)
 
 ## Communicating agents
-
-<!--Write proper mathematical equations-->
 
 For communicating agents we have set up the environment as the following: For calculating the number of positive and negative people we have used the following equation:
 N+(t) = Σ(1−θ(−1 ∗ Si)) (1.2) N−(t) = Σ(1−θ(Si)) where θ(x) is a heavy side function. For the field
@@ -56,21 +53,25 @@ have taken the appropriate values of the constant after reading some related pap
 
 1. Equillibrium state: Where valence = 0. 2.
 
-2. Positive excited state: where valence is more than Vmax (defined earlier).
+1. Positive excited state: where valence is more than Vmax (defined earlier).
 
-3. Negative excited state: where valence is less than Vmin (defined earlier).
+1. Negative excited state: where valence is less than Vmin (defined earlier).
 
 links will be broken or constructed. This is due to a interior conflict within the society. Using this way we aim to develop the effect of emotions when a hot topic is introduced in a community. Whether it results into a community integration or its disintegration.
+
+![Communicating agents](/images/agent-based-modeling/interacting-agents.png)
 
 ## Results
 
 For the first experiment we have seen that the number of people emerging as positively excited is more than the number of people which are negatively excited.(See the graph for further reference). This implies that even if people are not anonymous in the social network, still there is a clear tendency to express an opinion in a neutral to positive emotional way, avoiding direct confrontations or any other emotional debates. One of the reasons for such a behavior comes from the “repeated interaction” underlying online chats. Further also, from the perspective of psychology, Human languages are found to be biased towards using words with positive emotional charge, so here in our case inspite the agents are not anonymous, they still are biased towards positive emotions as the rate
 of people expressing positive emotion with the course of time is more than that of negative emotion.(See the fig).
 
+![Positive emotions](/images/agent-based-modeling/result-1.png)
+
 For the second experiment i.e to check whether emotion plays an important characteristic for social influence which results into the emergence or distintegration of society, we have made some random connection in the community as friends (for simplicity) , these connections are managed via distance based approach, (this is done inorder to quantify the strength of a tie, so to classify them as weak or a strong tie). An external fight is created using the external factor I, and agents are allowed to show their emotion, then if the emotional factor E of two agents (or better say friends) is not the same, then they move apart or near with random probability inorder to change the strength of the friendship between them (this is done to capture the fact that any breakup of the friendship is resulted as the consequence of several conflict of emotion, hence it is a continuous process), Now if the tie is not strong enough it eventually breaks down hence disintegration of society takes place.
 We know effectiveness of community-based groups and organizations is strongly influenced by the social and emotional competencies of their members.[5]. So, using above concept of agnet based model we studied the same.
 
-<!--Images-->
+![Negative emotions](/images/agent-based-modeling/result-2.png)
 
 ## Further discussion
 

@@ -1,5 +1,5 @@
 ---
-description: 
+date: 2017-08-11 
 tags:
   - project
 ---
@@ -62,18 +62,54 @@ We have experimented with both cancerous and non-cancerous nuclei. Images were t
 Binary classification was tested by varying the number of estimators i.e number of trees in forest. We observe that after a particular value, change in [precision
 and recall](https://www.wikiwand.com/en/Precision_and_recall) is negligible.
 
+![Training image](/images/nuclei-segmentation/training.jpg)
+Training Image{.text-center}
+
+![Annotated image](/images/nuclei-segmentation/annotated.jpg)
+Annotated Image{.text-center}
+
 Also predicted image is more sharp with increase in number of trees. Smaller number of trees are producing good results because there is clear distinction in RGB values of pixels belonging to different classes.
 
+![Testing image](/images/nuclei-segmentation/pixel-testing-image.png)
 
-// Insert Images and table
----------------------------
+Result for multiple forest size would be:
+
+Table: Non Cancerous : Measure of relevance for positive class
+
+| No. of Trees | Precision | Recall | f1-score | Overall Accuracy |
+| :----------: | :-------: | :----: | :------: | :--------------: |
+|      1       |   0.74    |  0.64  |   0.69   |       0.96       |
+|      5       |   0.77    |  0.67  |   0.72   |       0.96       |
+|      10      |   0.79    |  0.66  |   0.72   |       0.96       |
+|      50      |   0.78    |  0.68  |   0.73   |       0.97       |
+|     100      |   0.78    |  0.69  |   0.73   |       0.97       |
+|     200      |   0.78    |  0.69  |   0.73   |       0.97       |
+|     500      |   0.79    |  0.69  |   0.73   |       0.97       |
+{.table .table-sm}
 
 #### Cancerous Nuclei
 
 Similar experiments were conducted on cancerous images by varying the number of estimators. We observe that even for high number of trees, results are
 not satisfying. Even though overall accuracy seems really good, this is not a good metric to validate the model as high accuracy is due to majority of non-nuclei white region. Thus, recall and precision are better metric to evaluate how our model is performing. Low recall and precision infers erroneous model.
 
-//Images and output
+![Test image](/images/nuclei-segmentation/cancer-testing.jpg)
+Test Image{.text-center}
+
+![ Predictions](/images/nuclei-segmentation/cancer-pixel.png)
+Predictions{.text-center}
+
+Result
+
+| No. of Trees | Precision | Recall | f1-score | Overall Accuracy |
+| :----------: | :-------: | :----: | :------: | :--------------: |
+|      1       |   0.57    |  0.32  |   0.41   |       0.87       |
+|      5       |   0.61    |  0.3   |   0.41   |       0.88       |
+|      10      |   0.61    |  0.29  |   0.39   |       0.87       |
+|      50      |   0.63    |  0.3   |   0.41   |       0.88       |
+|     100      |   0.63    |  0.3   |   0.41   |       0.88       |
+|     200      |   0.63    |  0.3   |   0.41   |       0.88       |
+|     500      |   0.64    |  0.3   |   0.41   |       0.88       |
+{.table .table-sm}
 
 ## Patchwise Binary Classification
 
@@ -84,21 +120,38 @@ of achieving this is using the RGB values of surrounding pixels as features for 
 
 Again we experimented with both cancerous and non-cancerous nuclei from the same H&E data. Following section shows the results for experiments. For these experiments we have fixed the number of estimators to be 500 and have collected results for different patch-sizes.
 
-//Images and table
--------------------
-
-#### Non-cancerous nuclei
+#### Non-cancerous Nuclei
 
 The results are slightly better than previous approach (pixel-wise binary classification). Image show more sharpness and less noise. But with change in patch-size here is no relevant improvement in the results.
 
-// Images and table
---------------------
+Non-Cancerous: Measure of relevance for positive class
+Patch Size 
+3
+5
+7
+9
+11
+13
+15
+Precision
+0.83 0.72
+0.84 0.73
+0.84 0.73
+0.85 0.72
+0.85 0.72
+0.86 0.72
+0.86 0.72
 
-#### Cancerous nuclei
+f1-score Accuracy 0.77 0.97 0.78 0.97 0.78 0.97 0.78 0.97 0.78 0.97 0.78 0.97 0.78 0.97
+Recall
+
+<!-- TODO: Images and table -->
+
+#### Cancerous Nuclei
 
 As we can see, the results are much better as compared to earlier approach. Also precision and overall accuracy seems to have improved. Upon increasing the patch-size, precision and recall improvement is very little but the results are much better if see the resultant images.
 
-// Images and table
+<!-- TODO: Images and table -->
 
 ## Ternary classification
 
@@ -116,7 +169,7 @@ In order to segment nuclei, it is sufficient to detect its boundary. So, instead
 
 Results for ternary classification do not show any improvement over binary classification. Trend within similar approaches upon varying the number of estimators and patch-sizes again match with binary classification. So we just enlist all the results that were gathered for ternary classification.
 
-// Images and Tables
+<!-- TODO: Images and Tables -->
 
 ## Further possibilities
 
@@ -128,7 +181,7 @@ We have achieved a supervised approach for image segmentation using random fores
 
 * We can formulate our research into an interactive tool whose underlying features could be as follows:
 
-  * we can divide this tool into three modules, one module will take the image and the appropriate    annotations from the user.
+  * we can divide this tool into three modules, one module will take the image and the appropriate annotations from the user.
 
   * Then, then the second module will make a classifier on the basis of prior given.
 

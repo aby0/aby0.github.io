@@ -28,7 +28,7 @@ module.exports = {
       static: true,
       base: 'http://aby.ninja',
       markdown: {
-        plugins: [require('markdown-it-katex')]
+        plugins: [require('markdown-it-katex'), require('markdown-it-attrs')]
       }
     } }
   ],

@@ -1,6 +1,8 @@
 <template>
     <div>
       <nuxt/>
+      <br>
+      <br>
       <nuxt-link class="back-to-home" to="/"><i class="fa fa-home"></i></nuxt-link>
     </div>
 </template>
