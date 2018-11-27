@@ -1,7 +1,13 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+
 $font-family-base: 'Roboto', sans-serif;
 
 $brand-primary: #008fa1;
-$brand-secondary: #007888;
+$theme-colors: (
+  "primary":    #008fa1,
+  "secondary":  #007888,
+);
 
 // Button
 $btn-padding-x: 15px;
