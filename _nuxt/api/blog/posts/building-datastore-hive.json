@@ -28,11 +28,11 @@
     "published_at": "2016-08-11T00:00:00.000Z"
   },
   "prev": {
-    "id": "fare-trends",
-    "slug": "fare-trends",
-    "collection": "airfare-insights",
-    "title": "Fare Trends",
-    "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
-    "published_at": "2018-11-27T03:41:56.801Z"
+    "id": "indigo-api-integration",
+    "slug": "indigo-api-integration",
+    "collection": null,
+    "title": "Multivendor airline API aggregator",
+    "description": "API aggregration.",
+    "published_at": "2018-11-27T03:41:56.802Z"
   }
 }

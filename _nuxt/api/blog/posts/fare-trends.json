@@ -31,12 +31,12 @@
   "month": 11,
   "day": 28,
   "next": {
-    "id": "building-datastore-hive",
-    "slug": "building-datastore-hive",
+    "id": "indigo-api-integration",
+    "slug": "indigo-api-integration",
     "collection": null,
-    "title": "Datastore",
-    "description": "Efficient way to construct hive datastore.",
-    "published_at": "2018-11-27T03:41:56.801Z"
+    "title": "Multivendor airline API aggregator",
+    "description": "API aggregration.",
+    "published_at": "2018-11-27T03:41:56.802Z"
   },
   "prev": {
     "id": "y2038-problem",

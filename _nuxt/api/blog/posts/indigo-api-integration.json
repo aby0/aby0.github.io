@@ -20,19 +20,19 @@
   "month": 11,
   "day": 28,
   "next": {
-    "id": "fare-calendar-system",
-    "slug": "fare-calendar-system",
-    "collection": "airfare-insights",
-    "title": "Smart Fare calendar system",
-    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "id": "building-datastore-hive",
+    "slug": "building-datastore-hive",
+    "collection": null,
+    "title": "Datastore",
+    "description": "Efficient way to construct hive datastore.",
     "published_at": "2018-11-27T03:41:56.801Z"
   },
   "prev": {
-    "id": "coccinelle-usages",
-    "slug": "coccinelle-usages",
-    "collection": null,
-    "title": "Coccinelle",
-    "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
-    "published_at": "2016-08-11T00:00:00.000Z"
+    "id": "fare-trends",
+    "slug": "fare-trends",
+    "collection": "airfare-insights",
+    "title": "Fare Trends",
+    "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
+    "published_at": "2018-11-27T03:41:56.801Z"
   }
 }
