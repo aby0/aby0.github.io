@@ -8,9 +8,6 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: description }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -26,7 +23,7 @@ module.exports = {
     '@nuxtjs/axios',
     { src: '@nuxtjs/blog', options: {
       static: true,
-      base: 'http://aby.ninja',
+      base: 'https://somya.dev',
       markdown: {
         plugins: [require('markdown-it-katex'), require('markdown-it-attrs')]
       }

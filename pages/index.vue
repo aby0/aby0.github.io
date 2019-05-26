@@ -20,7 +20,7 @@
                 <h1 class="name">Somya Anand</h1>
                 <div class="title">Software Engineer | Data Scientist</div>
                 <div class="profile">
-                    <p>I am currently working at Paytm as a software engineer (most of the time acting as a data scientist, making sense out of data). I completed my bachelors in Mathematics and Computing from IIT Guwahati. I am also a machine learning enthusiast, ardent game of thrones fan, an amateur writer, travel freak, full time data scientist at heart and part time dreamer.</p>
+                    <p>I am working as a senior research software development engineer in machine learning team at Mindtickle (a sales enablement and sales readiness platform), one of the most promising Indian SAAS startups. I work on scientific exploration, research, product innovation and core engineering.</p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
@@ -57,12 +57,26 @@
             <div class="timeline">
                 <div class="item">
                     <div class="work-place">
+                        <h3 class="place">Mindtickle</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Software Engineer</div>
+                        <div class="time">Nov 2017 – Current</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
                         <h3 class="place">Paytm</h3>
                         <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Software Engineer</div>
-                        <div class="time">July 2016 – Current</div>
+                        <div class="time">July 2016 – Oct 2017</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
                         <p>The role includes Working on horizontally scalable distributed platform (Data Science Platform) in travel marketplace and responsible for providing better insights across all travel vertical. Major projects undertaken:</p> 
