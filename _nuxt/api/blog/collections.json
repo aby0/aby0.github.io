@@ -4,11 +4,11 @@
     "name": "Airfare Insights"
   },
   {
-    "id": "agent-based-modelling",
-    "name": "Agent Based Modelling"
-  },
-  {
     "id": "machine-learning",
     "name": "Machine Learning"
+  },
+  {
+    "id": "agent-based-modelling",
+    "name": "Agent Based Modelling"
   }
 ]

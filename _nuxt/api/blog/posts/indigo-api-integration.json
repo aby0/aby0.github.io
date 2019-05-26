@@ -6,33 +6,33 @@
   "rendered": "<h1>Multivendor airline API aggregator</h1>\n<p>API aggregration.</p>\n",
   "attributes": {
     "title": "Multivendor airline API aggregator",
-    "date": "2018-11-27T03:41:56.802Z",
-    "updated_at": "2018-11-27T03:41:56.802Z",
+    "date": "2019-05-26T07:52:45.286Z",
+    "updated_at": "2019-05-26T07:52:45.286Z",
     "description": "API aggregration.",
     "tags": []
   },
   "title": "Multivendor airline API aggregator",
   "description": "API aggregration.",
   "keywords": [],
-  "published_at": "2018-11-27T03:41:56.802Z",
-  "updated_at": "2018-11-27T03:41:56.802Z",
-  "year": 2018,
-  "month": 11,
-  "day": 28,
+  "published_at": "2019-05-26T07:52:45.286Z",
+  "updated_at": "2019-05-26T07:52:45.286Z",
+  "year": 2019,
+  "month": 5,
+  "day": 27,
   "next": {
-    "id": "fare-alert-system",
-    "slug": "fare-alert-system",
-    "collection": "airfare-insights",
-    "title": "Fare alert system",
-    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
-    "published_at": "2017-05-12T00:00:00.000Z"
-  },
-  "prev": {
     "id": "coccinelle-usages",
     "slug": "coccinelle-usages",
     "collection": null,
     "title": "Coccinelle",
     "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
     "published_at": "2016-08-11T00:00:00.000Z"
+  },
+  "prev": {
+    "id": "user-classification",
+    "slug": "user-classification",
+    "collection": "machine-learning",
+    "title": "User classification",
+    "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
+    "published_at": "2017-03-11T00:00:00.000Z"
   }
 }

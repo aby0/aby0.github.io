@@ -5,23 +5,7 @@
     "collection": "airfare-insights",
     "title": "Fare Trends",
     "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
-    "published_at": "2018-11-27T03:41:56.801Z"
-  },
-  {
-    "id": "building-datastore-hive",
-    "slug": "building-datastore-hive",
-    "collection": null,
-    "title": "Datastore",
-    "description": "Efficient way to construct hive datastore.",
-    "published_at": "2018-11-27T03:41:56.801Z"
-  },
-  {
-    "id": "fare-calendar-system",
-    "slug": "fare-calendar-system",
-    "collection": "airfare-insights",
-    "title": "Smart Fare calendar system",
-    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
-    "published_at": "2018-11-27T03:41:56.801Z"
+    "published_at": "2019-05-26T07:52:45.285Z"
   },
   {
     "id": "fare-alert-system",
@@ -32,12 +16,20 @@
     "published_at": "2017-05-12T00:00:00.000Z"
   },
   {
-    "id": "indigo-api-integration",
-    "slug": "indigo-api-integration",
+    "id": "building-datastore-hive",
+    "slug": "building-datastore-hive",
     "collection": null,
-    "title": "Multivendor airline API aggregator",
-    "description": "API aggregration.",
-    "published_at": "2018-11-27T03:41:56.802Z"
+    "title": "Datastore",
+    "description": "Efficient way to construct hive datastore.",
+    "published_at": "2019-05-26T07:52:45.285Z"
+  },
+  {
+    "id": "fare-calendar-system",
+    "slug": "fare-calendar-system",
+    "collection": "airfare-insights",
+    "title": "Smart Fare calendar system",
+    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "published_at": "2019-05-26T07:52:45.285Z"
   },
   {
     "id": "coccinelle-usages",
@@ -48,21 +40,28 @@
     "published_at": "2016-08-11T00:00:00.000Z"
   },
   {
+    "id": "indigo-api-integration",
+    "slug": "indigo-api-integration",
+    "collection": null,
+    "title": "Multivendor airline API aggregator",
+    "description": "API aggregration.",
+    "published_at": "2019-05-26T07:52:45.286Z"
+  },
+  {
+    "id": "user-classification",
+    "slug": "user-classification",
+    "collection": "machine-learning",
+    "title": "User classification",
+    "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
+    "published_at": "2017-03-11T00:00:00.000Z"
+  },
+  {
     "id": "y2038-problem",
     "slug": "y2038-problem",
     "collection": null,
     "title": "y2038 issue in linux kernel",
     "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
-    "published_at": "2018-11-27T03:41:56.802Z"
-  },
-  {
-    "id": "agent-based-modelling",
-    "slug": "agent-based-modelling",
-    "collection": "agent-based-modelling",
-    "title": "Role of emotions in online communities: An agent based approach",
-    "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
-    "photo": "/images/agent-based-modeling/main-model.png",
-    "published_at": "2017-08-11T00:00:00.000Z"
+    "published_at": "2019-05-26T07:52:45.286Z"
   },
   {
     "id": "supervised-nuclei-segmentation",
@@ -74,11 +73,12 @@
     "published_at": "2017-08-11T00:00:00.000Z"
   },
   {
-    "id": "user-classification",
-    "slug": "user-classification",
-    "collection": "machine-learning",
-    "title": "User classification",
-    "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
-    "published_at": "2017-03-11T00:00:00.000Z"
+    "id": "agent-based-modelling",
+    "slug": "agent-based-modelling",
+    "collection": "agent-based-modelling",
+    "title": "Role of emotions in online communities: An agent based approach",
+    "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
+    "photo": "/images/agent-based-modeling/main-model.png",
+    "published_at": "2017-08-11T00:00:00.000Z"
   }
 ]

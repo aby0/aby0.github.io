@@ -9,7 +9,7 @@
   "attributes": {
     "date": "2016-08-11T00:00:00.000Z",
     "title": "Coccinelle",
-    "updated_at": "2018-11-27T03:41:56.802Z",
+    "updated_at": "2019-05-26T07:52:45.285Z",
     "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
     "tags": []
   },
@@ -17,24 +17,24 @@
   "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
   "keywords": [],
   "published_at": "2016-08-11T00:00:00.000Z",
-  "updated_at": "2018-11-27T03:41:56.802Z",
+  "updated_at": "2019-05-26T07:52:45.285Z",
   "year": 2016,
   "month": 8,
   "day": 12,
   "next": {
+    "id": "fare-calendar-system",
+    "slug": "fare-calendar-system",
+    "collection": "airfare-insights",
+    "title": "Smart Fare calendar system",
+    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "published_at": "2019-05-26T07:52:45.285Z"
+  },
+  "prev": {
     "id": "indigo-api-integration",
     "slug": "indigo-api-integration",
     "collection": null,
     "title": "Multivendor airline API aggregator",
     "description": "API aggregration.",
-    "published_at": "2018-11-27T03:41:56.802Z"
-  },
-  "prev": {
-    "id": "y2038-problem",
-    "slug": "y2038-problem",
-    "collection": null,
-    "title": "y2038 issue in linux kernel",
-    "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
-    "published_at": "2018-11-27T03:41:56.802Z"
+    "published_at": "2019-05-26T07:52:45.286Z"
   }
 }

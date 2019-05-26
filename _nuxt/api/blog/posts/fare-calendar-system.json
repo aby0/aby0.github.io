@@ -12,8 +12,8 @@
       }
     ],
     "title": "Smart Fare calendar system",
-    "date": "2018-11-27T03:41:56.801Z",
-    "updated_at": "2018-11-27T03:41:56.801Z",
+    "date": "2019-05-26T07:52:45.285Z",
+    "updated_at": "2019-05-26T07:52:45.285Z",
     "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
     "collection": {
       "id": "airfare-insights",
@@ -25,25 +25,25 @@
   "keywords": [
     "project"
   ],
-  "published_at": "2018-11-27T03:41:56.801Z",
-  "updated_at": "2018-11-27T03:41:56.801Z",
-  "year": 2018,
-  "month": 11,
-  "day": 28,
+  "published_at": "2019-05-26T07:52:45.285Z",
+  "updated_at": "2019-05-26T07:52:45.285Z",
+  "year": 2019,
+  "month": 5,
+  "day": 27,
   "next": {
     "id": "building-datastore-hive",
     "slug": "building-datastore-hive",
     "collection": null,
     "title": "Datastore",
     "description": "Efficient way to construct hive datastore.",
-    "published_at": "2018-11-27T03:41:56.801Z"
+    "published_at": "2019-05-26T07:52:45.285Z"
   },
   "prev": {
-    "id": "fare-alert-system",
-    "slug": "fare-alert-system",
-    "collection": "airfare-insights",
-    "title": "Fare alert system",
-    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
-    "published_at": "2017-05-12T00:00:00.000Z"
+    "id": "coccinelle-usages",
+    "slug": "coccinelle-usages",
+    "collection": null,
+    "title": "Coccinelle",
+    "description": "Coccinelle is a program matching tool which allows programmers to easily write some complex style-preserving source-to-source transformations on C source code, for instance, code refactoring.\nThere are useful online resources which document this tool very well, however it is slightly difficult for a beginner to understand these concepts through these materials. So this is my attempt to explain the details of this tool in more convenient way.",
+    "published_at": "2016-08-11T00:00:00.000Z"
   }
 }

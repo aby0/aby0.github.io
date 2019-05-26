@@ -13,7 +13,7 @@
       }
     ],
     "title": "User classification",
-    "updated_at": "2018-11-27T03:41:56.802Z",
+    "updated_at": "2019-05-26T07:52:45.286Z",
     "description": "Based on the activities performed by the user in travel marketplace, we aim to classify them with certain probability that how likely is the user to book a ticket.",
     "collection": {
       "id": "machine-learning",
@@ -26,17 +26,24 @@
     "project"
   ],
   "published_at": "2017-03-11T00:00:00.000Z",
-  "updated_at": "2018-11-27T03:41:56.802Z",
+  "updated_at": "2019-05-26T07:52:45.286Z",
   "year": 2017,
   "month": 3,
   "day": 12,
   "next": {
-    "id": "supervised-nuclei-segmentation",
-    "slug": "supervised-nuclei-segmentation",
-    "collection": "machine-learning",
-    "title": "Supervised approach for nuclei segmentation",
-    "description": "Segmentation is an important stage in almost every problem involving digital image analysis. In image segmentation we aim to partition the spatial domain of the image, thereby delimiting the region of interest which correspond to the target objects in the concerned image analysis.",
-    "photo": "/images/nuclei-segmentation/training.jpg",
-    "published_at": "2017-08-11T00:00:00.000Z"
+    "id": "indigo-api-integration",
+    "slug": "indigo-api-integration",
+    "collection": null,
+    "title": "Multivendor airline API aggregator",
+    "description": "API aggregration.",
+    "published_at": "2019-05-26T07:52:45.286Z"
+  },
+  "prev": {
+    "id": "y2038-problem",
+    "slug": "y2038-problem",
+    "collection": null,
+    "title": "y2038 issue in linux kernel",
+    "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
+    "published_at": "2019-05-26T07:52:45.286Z"
   }
 }

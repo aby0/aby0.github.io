@@ -13,7 +13,7 @@
       }
     ],
     "title": "Role of emotions in online communities: An agent based approach",
-    "updated_at": "2018-11-27T03:41:56.801Z",
+    "updated_at": "2019-05-26T07:52:45.285Z",
     "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
     "photo": "/images/agent-based-modeling/main-model.png",
     "collection": {
@@ -28,19 +28,11 @@
     "project"
   ],
   "published_at": "2017-08-11T00:00:00.000Z",
-  "updated_at": "2018-11-27T03:41:56.801Z",
+  "updated_at": "2019-05-26T07:52:45.285Z",
   "year": 2017,
   "month": 8,
   "day": 12,
   "next": {
-    "id": "y2038-problem",
-    "slug": "y2038-problem",
-    "collection": null,
-    "title": "y2038 issue in linux kernel",
-    "description": "The Year 2038 problem or commonly called as y2038 issue is an issue for computing and data storage situations in which time values are stored or calculated as a signed 32-bit integer, and this number is interpreted as the number of seconds since 00:00:00 UTC on 1 January 1970 (the epoch).[1] Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038.",
-    "published_at": "2018-11-27T03:41:56.802Z"
-  },
-  "prev": {
     "id": "supervised-nuclei-segmentation",
     "slug": "supervised-nuclei-segmentation",
     "collection": "machine-learning",
